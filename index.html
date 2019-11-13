@@ -5,30 +5,52 @@
 <head>
 
     <title> New Tab</title>
-
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <p id="topbar">Gmail Images</p>
+
+    <ul id="topbar">
+        <li><a href="https://mail.google.com/mail/?tab=rm&ogbl">Gmail</a></li>
+        <li><a href="https://www.google.com/imghp?hl=en&tab=ri&ogbl">Images</a></li>
+    </ul>
+
     <img id="logo" src="google-logo.jpg" alt="Google Logo">
 
     <form action="search-term.php" method="post">
         <p><input id="searchbox" type="text" name="name" value="Search Google or type a URL"</p>
     </form>
-    <table class="freq-pages-table">
-        <tr>
-            <td><img class="freq-pages-logo" src="github-logo.png" alt="github Logo"></td>
-            <td><img class="freq-pages-logo" src="small-google-logo.png" alt="Google Logo"></td>
-            <td><img class="freq-pages-logo" src="youtube-logo.png" alt="Youtube Logo"></td>
-        </tr>
-        <tr>
-            <td><img class="freq-pages-logo" src="gmail-logo.png" alt="github Logo"></td>
-            <td><img class="freq-pages-logo" src="webstore-logo.png" alt="Web Store Logo"></td>
-            <td><img class="freq-pages-logo" src="plus-sign-logo.jpg" alt="Plus Sign Logo"></td>    
-        </tr>
-    </table>
+
+    <div id="most-visited-box">
+
+        <a id="most-visited-tile1" href="https://github.com">
+            <img class="most-visited-logo" src="github-logo.png">
+            <div class="tile-name">GitHub</div>
+        </a>
+    
+        <a id="most-visited-tile2" href="https://www.google.com/">
+            <img class="most-visited-logo" src="small-google-logo.png"> 
+        </a>
+
+        <a id="most-visited-tile3" href="https://www.youtube.com/">
+            <img class="most-visited-logo" src="youtube-logo.png"> 
+        </a>
+
+        <a id="most-visited-tile4" href="https://mail.google.com/mail/?tab=rm&ogbl">
+            <img class="most-visited-logo" src="gmail-logo.png"> 
+        </a>
+
+        <a id="most-visited-tile5" href="https://chrome.google.com/webstore?hl=en">
+            <img class="most-visited-logo" src="webstore-logo.png"> 
+        </a>
+
+        <a id="most-visited-tile6" href="https://old.reddit.com/">
+            <img class="most-visited-logo" src="reddit-logo.png"> 
+        </a>
+    </div>
+  
 
 </body>
 </html>

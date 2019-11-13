@@ -1,7 +1,20 @@
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 12px;
+}
+
 #topbar {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     position: absolute;
-    top: 0px;
-    right: 75px;
+    top: 30px;
+    right: 100px;
+}
+
+li {
+    display: inline;
 }
 
 #logo {
@@ -20,14 +33,72 @@
     height: 30px;
 }
 
-.freq-pages-logo {
-    width: 30px;
-}
+#most-visited-box {
 
-.freq-pages-table {
     position: absolute;
+    left: calc(50% - 150px);
     top: 350px;
-    left: calc(50% - 125px);
-    width: 325px;
+    margin-top: 25px;
+    width: 300px;
     height: 250px;
 }
+
+#most-visited-tile1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100px;
+    height: 125px;
+}
+
+#most-visited-tile2 {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 100px;
+    height: 125px;
+}
+
+#most-visited-tile3 {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    width: 100px;
+    height: 125px;
+}
+
+#most-visited-tile4 {
+    position: absolute;
+    left: 0px;
+    top: 125px;
+    width: 100px;
+    height: 125px;
+}
+
+#most-visited-tile5 {
+    position: absolute;
+    left: 100px;
+    top: 125px;
+    width: 100px;
+    height: 125px;
+}
+
+#most-visited-tile6 {
+    position: absolute;
+    left: 200px;
+    top: 125px;
+    width: 100px;
+    height: 125px;
+}
+ .most-visited-logo {
+    position: relative;
+    left: calc(50% - 15px);
+    top: 25px;
+    width: 30px;
+ }
+
+ .tile-name {
+    position: relative;
+    left: 30px;
+    top: 60px;
+ }
