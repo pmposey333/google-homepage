@@ -98,7 +98,6 @@ li {
  }
 
  .tile-name {
-    position: relative;
-    left: 30px;
-    top: 60px;
+    position: absolute;
+    top: 75px;
  }
